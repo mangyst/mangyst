@@ -1,92 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 200"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Welcome to my GitHub</title>
+  <desc id="desc">Animated gradient welcome banner with responsive text and foreignObject fallback.</desc>
 
-<svg fill="none" viewBox="0 0 900 200" width="900" height="200" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				@keyframes rotate {
-					0% {
-						transform: rotate(3deg);
-					}
-					100% {
-						transform: rotate(-3deg);
-					}
-				}
+  <defs>
+    <linearGradient id="bgFallback" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#fc5c7d"/>
+      <stop offset="50%" stop-color="#6a82fb"/>
+      <stop offset="100%" stop-color="#05dfd7"/>
+    </linearGradient>
+  </defs>
 
-				@keyframes gradientBackground {
-					0% {
-						background-position: 0% 50%;
-					}
-					50% {
-						background-position: 100% 50%;
-					}
-					100% {
-						background-position: 0% 50%;
-					}
-				}
+  <switch>
+    <foreignObject x="0" y="0" width="100%" height="100%"
+                   requiredExtensions="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+          @keyframes rotate {
+            0%   { transform: rotate(2deg); }
+            100% { transform: rotate(-2deg); }
+          }
+          @keyframes gradientBackground {
+            0%   { background-position: 0% 50%; }
+            50%  { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+          }
+          @keyframes fadeIn {
+            0%,66% { opacity: 0; }
+            100%   { opacity: 1; }
+          }
 
-				@keyframes fadeIn {
-					0% {
-						opacity: 0;
-					}
-					66% {
-						opacity: 0;
-					}
-					100% {
-						opacity: 1;
-					}
-				}
+          .container {
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
 
-				.container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-					justify-content: center;
-					margin: 0;
-					width: 100%;
-					height: 200px;
-					background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-					background-size: 600% 400%;
-					animation: gradientBackground 10s ease infinite;
-					border-radius: 10px;
-					color: white;
-					text-align: center;
-				}
+            width: 100%;
+            height: 100%;
+            padding: 12px 16px;
 
-				h1 {
-					font-size: 50px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-					text-transform: uppercase;
-					text-shadow:
-						0 1px 0 #efefef,
-						0 2px 0 #efefef,
-						0 3px 0 #efefef,
-						0 4px 0 #efefef,
-						0 12px 5px rgba(0, 0, 0, 0.1);
-					animation: rotate ease-in-out 1s infinite alternate;
-				}
+            background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+            background-size: 600% 400%;
+            animation: gradientBackground 10s ease infinite;
 
-				p {
-					font-size: 20px;
-					text-shadow: 0 1px 0 #efefef;
-					animation: 5s ease 0s normal forwards 1 fadeIn;
-				}
-			</style>
-			<div class="container">
-				<h1>Welcome to my GitHub</h1>
-				<p></p>
-			</div>
-		</div>
-	</foreignObject>
+            border-radius: 10px;
+            color: #fff;
+            text-align: center;
+          }
+
+          h1 {
+            /* адаптивный размер: от 22px до 42px */
+            font-size: clamp(22px, 6vw, 42px);
+            line-height: 1.2;
+            letter-spacing: clamp(1px, 0.6vw, 4px);
+            text-transform: uppercase;
+            text-shadow:
+              0 1px 0 rgba(239,239,239,0.6),
+              0 2px 0 rgba(239,239,239,0.5),
+              0 10px 6px rgba(0,0,0,0.12);
+            margin: 0;
+            animation: rotate ease-in-out 1s infinite alternate;
+            will-change: transform;
+          }
+
+          p {
+            font-size: clamp(14px, 3.5vw, 18px);
+            margin: 6px 0 0;
+            text-shadow: 0 1px 0 rgba(239,239,239,0.6);
+            animation: fadeIn 5s ease 0s 1 forwards;
+          }
+
+          /* Доп. твики для очень узких экранов */
+          @media (max-width: 420px) {
+            h1 { letter-spacing: 1px; }
+          }
+        </style>
+        <div class="container">
+          <h1>Welcome to my GitHub</h1>
+          <p></p>
+        </div>
+      </div>
+    </foreignObject>
+    <g>
+      <rect x="0" y="0" width="900" height="200" fill="url(#bgFallback)"/>
+      <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+         font-weight="700" text-anchor="middle">
+        <text x="450" y="105"
+              fill="rgba(0,0,0,0.25)"
+              font-size="36">Welcome to my GitHub</text>
+        <text x="450" y="100"
+              fill="#ffffff"
+              font-size="36">Welcome to my GitHub</text>
+      </g>
+    </g>
+  </switch>
 </svg>
-
