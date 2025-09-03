@@ -1,11 +1,6 @@
 <p align="center">
-  <img
-    src="./welcome.svg"
-    alt="Welcome banner"
-    width="100%"
-    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
-    loading="lazy"
-  />
+  <img src="./welcome.svg" alt="Welcome banner"
+       style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;" />
 </p>
 
 # Hi there, I'm Alexey Sulimin 👋
@@ -134,13 +129,8 @@
 />
 
 <p align="center">
-  <img
-    src="./end.svg"
-    alt="Thanks banner"
-    width="100%"
-    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
-    loading="lazy"
-  />
+  <img src="./end.svg" alt="Thanks banner"
+       style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;" />
 </p>
 
 <p align="center">
