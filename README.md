@@ -1,7 +1,15 @@
-<p align="center">
-  <img src="./welcome.svg" alt="Welcome banner"
-       style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;" />
-</p>
+<picture>
+  <!-- Мобильный welcome -->
+  <source media="(max-width: 520px)" srcset="./welcome-mobile.svg" />
+  <!-- Десктоп/планшет welcome -->
+  <img
+    src="./welcome-desktop.svg"
+    alt="Welcome banner"
+    width="100%"
+    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
+    loading="lazy"
+  />
+</picture>
 
 # Hi there, I'm Alexey Sulimin 👋
 
@@ -22,86 +30,92 @@
 
 ### Languages
 <table>
-  <td align="center" width="90">
-    <a href="https://www.python.org/" target="_blank">
-      <img alt="Python" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/languages/python.svg" />
-    </a>
-    <br><h4>Python</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">
-      <img alt="SQL" width="45" height="45" style="padding:10px;" src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" />
-    </a>
-    <br><h4>SQL</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://www.linux.org/" target="_blank">
-      <img alt="Linux" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />
-    </a>
-    <br><h4>Linux</h4>
-  </td>
+  <tr>
+    <td align="center" width="90">
+      <a href="https://www.python.org/" target="_blank">
+        <img alt="Python" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/languages/python.svg" />
+      </a>
+      <br><h4>Python</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">
+        <img alt="SQL" width="45" height="45" style="padding:10px;" src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" />
+      </a>
+      <br><h4>SQL</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://www.linux.org/" target="_blank">
+        <img alt="Linux" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />
+      </a>
+      <br><h4>Linux</h4>
+    </td>
+  </tr>
 </table>
 
 ### Frameworks & Libraries
 <table>
-  <td align="center" width="90">
-    <a href="https://fastapi.tiangolo.com/" target="_blank">
-      <img alt="FastAPI" width="45" height="45" style="padding:10px;" src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" />
-    </a>
-    <br><h4>FastAPI</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://www.selenium.dev/" target="_blank">
-      <img alt="Selenium" width="45" height="45" style="padding:10px;" src="https://icon.icepanel.io/Technology/svg/Selenium.svg" />
-    </a>
-    <br><h4>Selenium</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://playwright.dev" target="_blank">
-      <img alt="Playwright" width="75" height="45" style="padding:1px;" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Playwright_Logo.svg" />
-    </a>
-    <br><h4>Playwright</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://www.sqlalchemy.org/" target="_blank">
-      <img alt="SQLAlchemy" height="45" style="padding:10px;" src="https://www.sqlalchemy.org/img/sqla_logo.png" />
-    </a>
-    <br><h4>SQLAlchemy</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://ethereum.org" target="_blank">
-      <img alt="Ethereum" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" />
-    </a>
-    <br><h4>Ethereum</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://docs.aiogram.dev" target="_blank">
-      <img alt="aiogram (Telegram)" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" />
-    </a>
-    <br><h4>aiogram</h4>
-  </td>
+  <tr>
+    <td align="center" width="90">
+      <a href="https://fastapi.tiangolo.com/" target="_blank">
+        <img alt="FastAPI" width="45" height="45" style="padding:10px;" src="https://icon.icepanel.io/Technology/svg/FastAPI.svg" />
+      </a>
+      <br><h4>FastAPI</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://www.selenium.dev/" target="_blank">
+        <img alt="Selenium" width="45" height="45" style="padding:10px;" src="https://icon.icepanel.io/Technology/svg/Selenium.svg" />
+      </a>
+      <br><h4>Selenium</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://playwright.dev" target="_blank">
+        <img alt="Playwright" width="75" height="45" style="padding:1px;" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Playwright_Logo.svg" />
+      </a>
+      <br><h4>Playwright</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://www.sqlalchemy.org/" target="_blank">
+        <img alt="SQLAlchemy" height="45" style="padding:10px;" src="https://www.sqlalchemy.org/img/sqla_logo.png" />
+      </a>
+      <br><h4>SQLAlchemy</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://ethereum.org" target="_blank">
+        <img alt="Ethereum" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg" />
+      </a>
+      <br><h4>Ethereum</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://docs.aiogram.dev" target="_blank">
+        <img alt="aiogram (Telegram)" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" />
+      </a>
+      <br><h4>aiogram</h4>
+    </td>
+  </tr>
 </table>
 
 ### Databases
 <table>
-  <td align="center" width="90">
-    <a href="https://www.postgresql.org/" target="_blank">
-      <img alt="PostgreSQL" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/databases/postgres.svg" />
-    </a>
-    <br><h4>PostgreSQL</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://www.mysql.com/" target="_blank">
-      <img alt="MySQL" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/databases/mysql.svg" />
-    </a>
-    <br><h4>MySQL</h4>
-  </td>
-  <td align="center" width="90">
-    <a href="https://www.sqlite.org/index.html" target="_blank">
-      <img alt="SQLite" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" />
-    </a>
-    <br><h4>SQLite</h4>
-  </td>
+  <tr>
+    <td align="center" width="90">
+      <a href="https://www.postgresql.org/" target="_blank">
+        <img alt="PostgreSQL" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/databases/postgres.svg" />
+      </a>
+      <br><h4>PostgreSQL</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://www.mysql.com/" target="_blank">
+        <img alt="MySQL" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/databases/mysql.svg" />
+      </a>
+      <br><h4>MySQL</h4>
+    </td>
+    <td align="center" width="90">
+      <a href="https://www.sqlite.org/index.html" target="_blank">
+        <img alt="SQLite" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" />
+      </a>
+      <br><h4>SQLite</h4>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -128,10 +142,18 @@
   loading="lazy"
 />
 
-<p align="center">
-  <img src="./end.svg" alt="Thanks banner"
-       style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;" />
-</p>
+<picture>
+  <!-- Мобильный end -->
+  <source media="(max-width: 520px)" srcset="./end-mobile.svg" />
+  <!-- Десктоп/планшет end -->
+  <img
+    src="./end.svg"
+    alt="Thanks banner"
+    width="100%"
+    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
+    loading="lazy"
+  />
+</picture>
 
 <p align="center">
   <b>Let’s connect</b><br/>
