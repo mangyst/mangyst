@@ -1,0 +1,39 @@
+<!-- welcome-desktop.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 220"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Welcome to my GitHub</title>
+  <desc id="desc">Responsive gradient banner without foreignObject.</desc>
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#fc5c7d">
+        <animate attributeName="stop-color" values="#fc5c7d;#6a82fb;#05dfd7;#fc5c7d" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#6a82fb">
+        <animate attributeName="stop-color" values="#6a82fb;#05dfd7;#fc5c7d;#6a82fb" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="220" rx="12" fill="url(#grad)"/>
+
+  <!-- Тень -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="56" fill="rgba(0,0,0,0.25)"
+        textLength="1080" lengthAdjust="spacingAndGlyphs">
+    Welcome to my GitHub
+  </text>
+
+  <!-- Основной текст -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="56" fill="#fff"
+        textLength="1080" lengthAdjust="spacingAndGlyphs">
+    Welcome to my GitHub
+  </text>
+</svg>
+
+

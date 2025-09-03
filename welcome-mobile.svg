@@ -1,0 +1,37 @@
+<!-- welcome-mobile.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 260"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Welcome to my GitHub</title>
+  <desc id="desc">Mobile-friendly two-line banner without foreignObject.</desc>
+
+  <defs>
+    <linearGradient id="gradm" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#fc5c7d">
+        <animate attributeName="stop-color" values="#fc5c7d;#6a82fb;#05dfd7;#fc5c7d" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#6a82fb">
+        <animate attributeName="stop-color" values="#6a82fb;#05dfd7;#fc5c7d;#6a82fb" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" rx="12" fill="url(#gradm)"/>
+
+  <!-- Тень -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="44" fill="rgba(0,0,0,0.25)">
+    <tspan x="50%" dy="-0.4em">Welcome to my</tspan>
+    <tspan x="50%" dy="1.6em">GitHub</tspan>
+  </text>
+
+  <!-- Основной текст -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="44" fill="#fff">
+    <tspan x="50%" dy="-0.4em">Welcome to my</tspan>
+    <tspan x="50%" dy="1.6em">GitHub</tspan>
+  </text>
+</svg>

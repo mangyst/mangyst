@@ -1,0 +1,37 @@
+<!-- end-mobile.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 900 260"
+     preserveAspectRatio="xMidYMid meet"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Thanks for visiting!</title>
+  <desc id="desc">Mobile-friendly two-line closing banner without foreignObject.</desc>
+
+  <defs>
+    <linearGradient id="grad2m" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"  stop-color="#22c55e">
+        <animate attributeName="stop-color" values="#22c55e;#06b6d4;#a78bfa;#22c55e" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4;#a78bfa;#22c55e;#06b6d4" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" rx="12" fill="url(#grad2m)"/>
+
+  <!-- Тень -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="44" fill="rgba(0,0,0,0.25)">
+    <tspan x="50%" dy="-0.4em">Thanks for</tspan>
+    <tspan x="50%" dy="1.6em">visiting!</tspan>
+  </text>
+
+  <!-- Основной текст -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+        font-family="system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+        font-weight="700" font-size="44" fill="#fff">
+    <tspan x="50%" dy="-0.4em">Thanks for</tspan>
+    <tspan x="50%" dy="1.6em">visiting!</tspan>
+  </text>
+</svg>
