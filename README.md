@@ -1,16 +1,3 @@
-<picture>
-  <!-- Мобильный welcome -->
-  <source media="(max-width: 520px)" srcset="./welcome-mobile.svg" />
-  <!-- Десктоп/планшет welcome -->
-  <img
-    src="./welcome-desktop.svg"
-    alt="Welcome banner"
-    width="100%"
-    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
-    loading="lazy"
-  />
-</picture>
-
 # Hi there, I'm Alexey Sulimin 👋
 
 **Backend Python Developer | FastAPI | PostgreSQL | Docker**
@@ -141,20 +128,6 @@
   style="max-width:100%; height:auto;"
   loading="lazy"
 />
-
-<picture>
-  <!-- Мобильный end -->
-  <source media="(max-width: 520px)" srcset="./end-mobile.svg" />
-  <!-- Десктоп/планшет end -->
-  <img
-    src="./end.svg"
-    alt="Thanks banner"
-    width="100%"
-    style="max-width:100%; height:auto; display:block; margin:0 auto; padding:10px;"
-    loading="lazy"
-  />
-</picture>
-
 <p align="center">
   <b>Let’s connect</b><br/>
   <a href="https://t.me/mangysttt" target="_blank">
