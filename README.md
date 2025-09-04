@@ -30,12 +30,6 @@
       </a>
       <br><h4>SQL</h4>
     </td>
-    <td align="center" width="90">
-      <a href="https://www.linux.org/" target="_blank">
-        <img alt="Linux" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />
-      </a>
-      <br><h4>Linux</h4>
-    </td>
   </tr>
 </table>
 
@@ -102,7 +96,34 @@
       </a>
       <br><h4>SQLite</h4>
     </td>
+    <td align="center" width="90">
+      <a href="https://www.linux.org/" target="_blank">
+        <img alt="Linux" width="45" height="45" style="padding:10px;" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" />
+      </a>
+      <br><h4>Linux</h4>
+    </td>
   </tr>
+</table>
+
+### Tools & DevOps
+<table>
+    <td align="center" width="90">
+        <a href="https://github.com/" target="_blank"><img alt="GitHub" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/tools/Github.svg" /></a>
+        <br><h4>GitHub</h4>
+    </td>
+    <td align="center" width="90">
+        <a href="https://www.docker.com/" target="_blank"><img alt="Docker" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/tools/docker.svg" /></a>
+        <br><h4>Docker</h4>
+    </td>
+    <td align="center" width="90">
+        <a href="https://www.nginx.com/" target="_blank"><img alt="Nginx" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" /></a>
+        <br><h4>Nginx</h4>
+    </td>
+    <td align="center" width="90">
+        <a href="https://www.postman.com/" target="_blank"><img alt="Postman" width="45" height="45" style="padding:10px;" src="https://raw.githubusercontent.com/HighAmbition211/HighAmbition211/auxiliary/tools/Postman.png" /></a>
+        <br><h4>Postman</h4>
+    </td>
+  
 </table>
 
 ---
